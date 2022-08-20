@@ -34,6 +34,7 @@
 
 .middle{
   background-color: #eeeeee;
+  display: flex;
 }
 
 .first{
@@ -78,4 +79,13 @@ img{
 
 .form{
   display: flex;
+}
+
+.formLayout{
+  background-color: blue;
+  display: flex;
+}
+
+.formcol{
+  width: 50%;
 }
