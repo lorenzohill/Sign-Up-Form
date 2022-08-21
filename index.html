@@ -29,6 +29,7 @@
             </div>
             <div class="item middle">
                 <h2>Let's do this!</h2>
+                <form action="#" method="get">
                 <div class="formLayout">
                     <div class="formcol">
                         <label for="first-name">First Name</label>
@@ -36,22 +37,21 @@
                         <label for="email">Email</label>
                         <input type="email" name="email" id="email">
                         <label for="password">Password</label>
-                        <input type="text" name="password" id="password">
+                        <input type="password" name="password" id="password" minlength="8" title="Must Contain 8 letters or numbers">
                     </div>
                     <div class="formcol">
                         <label for="last-name">Last Name</label>
                         <input type="text" name="lastName" id="last-name">
                         <label for="phoneNum">Phone Number</label>
                         <input type="text" name="phoneNum" id="phoneNum"> 
-                        <label for="confirm-password">Password</label>
-                        <input type="text" name="confrim-password" id="confirm-password">
+                        <label for="confirm-password">Confirm Password</label>
+                        <input type="password" name="confrim-password" id="confirm-password" minlength="8" title="Must Contain 8 letters or numbers">
                     </div>
-                </form>
-                    <form>
                 </div>
             </div>
             <div class="item last">
                 <button>Create Account</button>
+            </form>
                 <p>Already have an account? Log In </p>
             </div>
         </div>
